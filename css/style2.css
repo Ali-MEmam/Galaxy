@@ -1,0 +1,218 @@
+body
+{
+
+    font-family: cursive;
+    color: black;
+}
+/* Nav Bar */
+.background-top
+{
+    color: white;
+    background: center;
+    background-image: url(../photo/G2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-optical
+{
+    max-height: 700px;
+    background-color: rgba(0,0,0,0.4);
+}
+nav
+{
+    margin-bottom: 2px;
+    min-height: 70px;
+
+}
+.bg-dark {
+    background-color:inherit;  
+}
+/* Nav-Active*/
+/* brand name */
+#brandname
+{
+    
+}
+
+/* DropDown menu*/
+.dropdown-menu
+{
+    border-top: 1px solid white;
+    border-bottom-left-radius:20%;
+    right:0;
+    left: auto;
+    width: 160px;
+    background-color:#133f3a;
+    margin-top:10px;
+    min-width: 193px;
+    overflow: hidden;
+
+}
+.dropdown-item
+{
+    color: white;
+}
+.dropdown-item:hover, .dropdown-item:focus
+{
+    color: white;
+    padding-left: 30px;
+    -webkit-transition:padding 1s ease;
+    -moz-transition: padding 1s ease;
+    -o-transition: padding 1s ease;
+    transition: padding 1s ease;
+    background-color: #101010;
+}
+.fa-arrow-left
+{
+    margin-right: 5px;
+}
+/* NavBar End*/
+/* Singin Start*/
+.main-singin
+{
+    color: black;
+    background-color: white;
+    min-height: 400px;
+    min-width: 500px;
+        padding: 50px 500px;
+}
+.main-singin section
+{
+    
+}
+.main-singin ul
+{
+    background-color:  grey;
+}
+/*.main-singin ul
+{
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #c1c1c16e;
+    font-size: 14px;
+}
+.main-singin li
+{
+    
+}
+.li-div
+{
+    background: #efefef;
+        padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+span
+{
+        margin: 10px
+}*/ 
+/* Footer Section Start*/
+.footer
+{
+
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color: #101010
+}
+.footer .container
+{
+    
+}
+.f1
+{
+        margin: 10px auto 60px;
+    color: #133f3a;
+    padding-left: 10px;
+    font-weight:900;
+    letter-spacing: 13px;
+}
+.three-Site
+{
+    color:#898a8c;
+    font-size: 12px;
+    margin-bottom: 270px
+}
+.three-Site li
+{
+    float: left;
+    width: 25%;
+    margin: 10px 0px 0px;
+    cursor: pointer;
+    
+}
+.three-Site li:hover
+{
+    color: white
+}
+.Soicalmedia li
+{
+    color: white;
+    float:left;
+    width: 25%;
+    cursor: pointer;
+}
+.Soicalmedia .fa-facebook ,
+.Soicalmedia .fa-twitter ,
+.Soicalmedia .fa-instagram,
+.Soicalmedia .fa-youtube
+{
+    color: #101010;
+}
+.Soicalmedia .fa-stack:hover
+{
+    color:#133f3a;
+}
+.connect
+{
+        color: white;
+    font-size: 22px;
+    margin-top: 80px;
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.input-connect
+{
+        width: 100%;
+    height: 33px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: none;
+
+}
+.btn-connect
+{
+        width: 100%;
+    font-size: 13px;
+    background-color: #133f3a;
+    color: white;
+}
+.mob-icon,.email-icon
+{
+    display: inline-block;
+    float: left;
+    color: #133f3a;
+    font-size: 16px;
+}
+.email-icon
+{
+    font-size: 20px
+}
+.mob-number,.email-supp
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+}
+.copy-right
+{
+    background-color: #133f3a;
+        font-size: 10px;
+    letter-spacing: 6px;
+
+}
+/* FooterEnd*/

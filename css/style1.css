@@ -1,0 +1,678 @@
+html
+{
+    margin: 0 !important;
+}
+body
+{
+    overflow-x:hidden;
+font-family: 'Poppins', sans-serif;
+    color: black;
+   max-width: 100%;
+}
+/* Nav Bar */
+.background-top
+{
+    color: white;
+    background: center;
+    background-image: url(../photo/G2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-optical
+{
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.4);
+}
+nav
+{
+    margin-bottom: 2px;
+    min-height: 70px;
+
+}
+.bg-dark {
+    background-color:inherit;  
+}
+/* Nav-Active*/
+/* brand name */
+#brandname
+{
+    letter-spacing: 10px;
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* DropDown menu*/
+.dropdown-menu
+{
+    border-top: 1px solid white;
+    border-bottom-left-radius:20%;
+    right:0;
+    left: auto;
+    width: 160px;
+    background-color:#133f3a;
+    margin-top:10px;
+    min-width: 193px;
+    overflow: hidden;
+
+}
+.dropdown-item
+{
+    color: white;
+}
+.dropdown-item:hover, .dropdown-item:focus
+{
+    color: white;
+    padding-left: 30px;
+    -webkit-transition:padding 1s ease;
+    -moz-transition: padding 1s ease;
+    -o-transition: padding 1s ease;
+    transition: padding 1s ease;
+    background-color: #101010;
+}
+.fa-arrow-left
+{
+    margin-right: 5px;
+    display: none;
+    transition-duration: 3s;
+    
+}
+.Service:hover .fa-arrow-left,
+.Service:active .fa-arrow-left,
+.Service:focus .fa-arrow-left
+{
+    display: inline;
+}
+/* Nav End*/
+/* WEb start */
+.Top-Side-Web
+{
+        margin-top: 100px;
+        margin-bottom:100px;
+
+}
+.Top-Side-Web .form-group
+{
+    margin-top: 55px
+}
+
+.Top-Side-Web .form-control
+{
+    margin-top:10px;
+    padding: 20px 10px;
+    margin-right: 1px;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid rgba(255,255,255,0.6);
+}
+.btn-Price
+{
+    margin-top:10px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: white;
+    height: 60px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+}
+.btn-Price:hover
+{
+    opacity: 0.8
+}
+.btn-Price:active , .btn-active
+{
+        background-color: #133f3a;
+}
+.btn-buy
+{
+    white-space: normal;
+    margin: 30px auto;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    background-color: #133f3a;
+
+}
+.shape img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* Part Two*/
+.second-part
+{
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.second-part p
+{
+        font-size: 15px;
+        color:#504848
+}
+.third-part-div 
+{
+    margin-top: 40px;
+    padding-right: 0px;
+        padding-left: 0px;
+    background-color:#133f3a;
+        border-radius: 30px;
+            box-shadow: 6px 3px 20px white,
+    7px 4px 20px black
+}
+.third-part-div img
+{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+.text-third
+{
+        margin-top: 30px;
+    min-height: 160px;
+    color: white;
+}
+.btn-book
+{
+        background-color:#585656;
+        color: white;
+            width: 300px;
+    padding: 10px 20px;
+    letter-spacing: 4px;
+    white-space: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.part-four
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #101010;
+    color: rgba(255,255,255,0.8);
+}
+.part-five .container-fluid
+{
+    margin: 100px auto;
+}
+.part-four h2
+{
+
+    padding-top: 50px
+}
+.part-four h3
+{
+    font-size: 20px;
+    font-weight: bolder
+    
+}
+.part-four p
+{
+    font-size: 16px
+}
+.pf4
+{
+        margin-top: 50px;
+        margin-bottom: 50px
+}
+.part-four-text
+{
+    padding: 20px 20px
+}
+.part-four .fa
+{
+    color: #585656;
+}
+.btn-more
+{
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 30px;
+    width: 200px;
+    color: white;
+    height: 50px;
+    
+}
+.part-five
+{
+    background-color: #133f3a;
+
+}
+.part-five-text
+{
+        margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+.fa-apple
+{
+    text-align: right;
+}
+.btn-apple
+{
+        padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: white;
+    color: #133f3a;
+
+}
+/* Happy Customer Start */
+.happy
+{
+    background-color:rgba(35,86,48,0.28);
+    min-height: 500px;
+}
+.happy h2
+{
+font-family: 'Playball', cursive;
+font-weight: bold;
+    color: rgba(119, 118, 118, 0.81);
+}
+.happy .fa
+{
+    color: #133f3a;
+    font-size: 40px;
+}
+.happy-div
+{
+        margin-top: 100px;
+        margin-bottom:100px;
+}
+.happy-col
+{
+    padding-left: 0px
+}
+.happy-1
+{
+    color: white;
+    padding: 20px 20px 5px;
+    font-size: 14px;
+    min-height: 240px;
+    margin-top: 50px;
+    color: #8a8686;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    line-height: 1.6;
+    box-shadow: 3px 4px 9px black;
+
+}
+.happy-1 img
+{
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/* Happy Customers ENd*/
+/* Book Now Start*/
+.book-now
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.book-now h2
+{
+        margin-bottom: 30px;
+        font-weight: 900;
+}
+.book-now button
+{
+    color: white;
+    background-color: #133f3a;
+    white-space: normal;
+    width: 400px;
+    padding: 10px
+}
+/*Book Now ENd*/
+
+/* Footer Section Start*/
+.footer
+{
+
+    margin-top: 10px;
+    background-color: #101010;
+;
+    
+}
+.footer .container
+{
+        margin-top: 100px
+}
+.f1
+{
+    font-family: 'Playball', cursive;
+    font-weight: bold;
+    font-size: 34px;
+
+        margin: 0px auto 60px;
+    color: #133f3a;
+    padding-left: 10px;
+    font-weight:900;
+    letter-spacing: 13px;
+}
+.three-Site
+{
+    color:#898a8c;
+    font-size: 12px;
+    margin-bottom: 270px
+}
+.three-Site li
+{
+    float: left;
+    width: 25%;
+    margin: 10px 0px 0px;
+    cursor: pointer;
+    
+}
+.three-Site li:hover
+{
+    color: white
+}
+.Soicalmedia li
+{
+    color: white;
+    float:left;
+    width: 25%;
+    cursor: pointer;
+}
+.Soicalmedia .fa-facebook ,
+.Soicalmedia .fa-twitter ,
+.Soicalmedia .fa-instagram,
+.Soicalmedia .fa-youtube
+{
+    color: #101010;
+}
+.Soicalmedia .fa-stack:hover
+{
+    color:#133f3a;
+}
+.connect
+{
+        color: white;
+    font-size: 22px;
+    margin-top: 80px;
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.input-connect
+{
+        width: 100%;
+    height: 33px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: none;
+
+}
+.btn-connect
+{
+        width: 100%;
+    font-size: 13px;
+    background-color: #133f3a;
+    color: white;
+}
+.mob-icon,.email-icon
+{
+    display: inline-block;
+    float: left;
+    color: #133f3a;
+    font-size: 16px;
+}
+.email-icon
+{
+    font-size: 20px
+}
+.mob-number,.email-supp
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+}
+.copy-right
+{
+    background-color: #133f3a;
+        font-size: 10px;
+    letter-spacing: 6px;
+
+}
+
+/* Loading screen*/
+.ls
+{
+    z-index: 999999;
+    position: fixed;
+    top: 0px;
+    background-color: #101010;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    margin: auto
+}
+.spinner {
+  margin: 500px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #133f3a;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/* Login modal */
+.login-modal
+{
+    z-index: 9999999999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #898a8c;
+    padding-top: 60px;
+}
+.modal-contant
+{
+    width: 50%;
+    margin: 5% auto 15%;
+    background-color: #101010;
+    box-shadow: 9px 9px 9px #133f3a ,
+    -9px -9px 9px #133f3a
+}
+.img-times
+{
+    position: relative;
+    padding-top: 40px;
+}
+.x
+{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.x:hover,
+.x:focus {
+    color: #133f3a;
+    cursor: pointer;
+}
+.img img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+.Cancel-Password
+{
+    background-color:#585656;
+    padding: 10px 20px 10px
+}
+.Cancel-Password button
+{
+    
+}
+.Cancel-Password p
+{
+    float: right;
+}
+.Cancel-Password a
+{
+    text-decoration: none;
+    color: white
+}
+.labelsform
+{
+    margin-right: 20px;
+    margin-left :20px
+}
+.btn-Main
+{
+    color: white;
+    background-color:#133f3a;
+}
+.login input[type=checkbox]
+{
+    margin-top: 10px;
+}
+.animate {
+    -webkit-animation: animatezoom 1s;
+    animation: animatezoom 1s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+/* Side-menu*/
+.side-menu
+{
+    width: 300px;
+    
+    height: 100%;
+    z-index: 9999999;
+    position: fixed;
+    right:-300px;
+    top: 0px;
+    background-color: #101010;
+    color: white;
+    box-shadow: -6px 20px 9px 6px #133f3a;
+    transition: 1s;
+}
+.side-menu .x2
+{
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+        font-size: 34px;
+    font-weight: bolder;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+}
+.side-menu .x2:hover,
+.side-menu .x2:focus
+{
+    color: #133f3a;
+    opacity: 0.7
+}
+.side-menu h2
+{
+        margin-top: 20%;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #133f3a;
+}
+.side-menu li
+{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.side-menu li:hover,
+.side-menu li:focus
+{
+    color: white
+}
+#main {
+    transition: margin-right 1s;
+}
+
+/* Side-menu*/
+
+/* MediaaQ */
+@media (max-width: 991px){
+.three-Site li{
+    width: 33.333%
+}
+.f-social{
+    padding-left: 0px;
+    padding-right: 0px
+}
+.part-five img{
+        margin-top: 50px;
+
+}
+.modal-contant
+{
+    width: 80%
+}
+}
+@media (max-width:768px)
+{
+.w-100-sm-md
+{
+    width: 100% !important;
+}
+}
